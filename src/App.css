@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  background-color: #152850;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 500px;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 250px;
+}
+.para {
+  font-size: 28px;
+  color: #ffffff;
+}
+.bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.songs-bg-container {
+  height: 100vh;
+}
+.total-container {
+  width: 90%;
+  padding: 30px;
+  margin: auto;
+}
+
+.songs-heading {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 450;
+}
+
+.search-container {
+  height: 30px;
+  width: 218px;
+  border-radius: 3px;
+  overflow: hidden;
+  border: 1px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+  background-color: #152850;
+}
+
+.search-input {
+  border: none;
+  height: 30px;
+  outline: none;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  background-color: #152850;
+  overflow: auto;
+}
+.search-icon {
+  margin-right: 15px;
+  font-size: 15px;
+  color: #989898;
+}
+.search-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.track-container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.all-tracks {
+  list-style-type: none;
+  margin-top: 50px;
+  height: 70vh;
+  overflow: auto;
+}
+
+.track {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.track-heading {
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.genre-para {
+  color: #3b82f6;
+  font-size: 20px;
+}
+
+.duration {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  font-size: 25px;
+  color: #cbd5e1;
+}
+
+.duration-delete-container {
+  display: flex;
+  align-items: center;
+}
+
+.no-tracks-container {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+}
